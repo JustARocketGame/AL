@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Урок 1">
+    <meta property="og:image" content="/icon">
+    <meta name="keywords" content="бесплатно, англиский, изучать, язык, учить, инностранный">
+    <link rel="shortcut icon" href="/icon" type="image/png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="48">
+    <meta property="og:image:height" content="48">
+    <meta property="og:title" content="AL - Arte Language">
+    <title>AL - Урок 1</title>
+</head>
+<body>
+    <h1><img src="/lesson/icon"> AL - Урок 1</h1>
+    <div id="part1">
+        <h2>Запомни!</h2>
+        <h2>Milk - Молоко</h2>
+        <h2>Bread - Хлеб</h2>
+        <button onclick="next()">Запомнил!</button>
+    </div>
+    <div id="part2" style="display: none;">
+        <h2>Как переводится слово Milk?</h2>
+        <button onclick="notSucces()">Переводчик</button>
+        <button onclick="succes2()">Молоко</button>
+        <button onclick="notSucces()">Хлеб</button>
+    </div>
+    <div id="part3" style="display: none;">
+        <h2>Как переводится слово Bread?</h2>
+        <button onclick="notSucces()">Молоко</button>
+        <button onclick="succes2()">Хлеб</button>
+        <button onclick="notSucces()">Переводчик</button>
+    </div>
+    <h2 style="display: none;" id="succes">Отлично!</h2>
+    <h2 style="display: none;" id="notSucces">Неправильно!</h2>
+    <h2 style="display: none;" id="lessonOver">Конец урока!</h2>
+    <button style="display: none;" id="lessonOverButton" onclick="returnToHome()">Вернутся</button>
+    <script src="/source/l2x94mfjsa8.css"></script>
+</body>
+</html>
